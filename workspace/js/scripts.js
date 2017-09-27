@@ -1,10 +1,8 @@
-function drawTree(treeHeight) {
-	for (var i = 0; i < treeHeight; i++) {
-		var star = "";
-		for (var j = 0 ; j < i; j++) {
-			star += "*";
-		}
-		console.log(star);
-	}
+var navigation = document.getElementById('menu');
+var buttonClass = document.getElementsByClassName('button');
+for (var i = 0; i < buttonClass.length; i++) {
+	var newP = document.createElement('p');
+		newP.innerHTML = buttonClass;
+		navigation.appendChild(newP);
+
 }
-drawTree(6);
