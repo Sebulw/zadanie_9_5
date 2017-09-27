@@ -1,0 +1,34 @@
+{
+  "name": "zadanie_9_5",
+  "version": "1.0.0",
+  "description": "kodilla zadanie js",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sebulw/zadanie_9_5.git"
+  },
+  "keywords": [
+    "kodilla",
+    "js"
+  ],
+  "author": "Sebastian Wojnicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sebulw/zadanie_9_5/issues"
+  },
+  "homepage": "https://github.com/Sebulw/zadanie_9_5#readme"
+}
